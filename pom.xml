@@ -9,6 +9,7 @@
 
 	<properties>
 		<browser>firefox</browser>
+		<webdriver.chrome.driver>C:\opt\src\Testing\java-cucumber-example\bin\chromedriver.exe</webdriver.chrome.driver>
 	</properties>
 
 	<dependencies>
@@ -57,6 +58,17 @@
 			<artifactId>selenium-chrome-driver</artifactId>
 			<version>RELEASE</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.4</version>
 		</dependency>
 	</dependencies>
 

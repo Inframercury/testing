@@ -1,11 +1,12 @@
-Feature: Todo Lists
+#language: ru
+Функция: Задачник
 
-	Background:
-		Given am I on the todo page
+	Предыстория:
+		Дано я нахожусь на странице задачника
 	
-	Scenario: Creating a todo
-		When I type the todo "Do Things!"
-		Then todo list item 1 has text "Do Things!"
+	Сценарий: Создание задачи
+		Когда Я добавляю задачу "Делай вещи!"
+		Тогда элемент задачника под номером 1 содержит текст "Делай вещи!"
 		
 	
 		
